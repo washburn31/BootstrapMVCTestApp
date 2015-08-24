@@ -6,9 +6,14 @@ using System.Web.Mvc;
 
 namespace BootstrapMVCTestApp.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controller 
     {
         public ActionResult Index()
+        {
+            return View();
+        }
+
+        public ActionResult Index2()
         {
             return View();
         }
